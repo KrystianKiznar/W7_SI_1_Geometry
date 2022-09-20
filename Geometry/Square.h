@@ -8,7 +8,7 @@ private:
     double calcArea();
     double calcPerimeter();
 public:
-    Square(std::string name = "kwa");
+    Square(std::string name = "kwadrat");
     void toString();
 };
 

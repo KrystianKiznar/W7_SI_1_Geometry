@@ -91,19 +91,15 @@ void ShapeCollection::getMaxShapeByArea()
 
 void ShapeCollection::getFormulas()
 {
-	if (squares.size() > 0)
-	{
-		std::cout << "Kwadraty:\n";
-		squares[0].printAreaFormula();
+		std::cout << "Square:\n";
+		Square s;
+		s.printAreaFormula();
 		std::cout << std::endl;
-		squares[0].printPerimeterFormula();
+		s.printPerimeterFormula();
 
-	}
-	if (circles.size() > 0)
-	{
-		std::cout << "\nKolka:\n";
-		circles[0].printAreaFormula();
+		std::cout << "\nCircle:\n";
+		Circle c;
+		c.printAreaFormula();
 		std::cout << std::endl;
-		circles[0].printPerimeterFormula();
-	}
+		c.printPerimeterFormula();
 }

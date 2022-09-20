@@ -8,7 +8,7 @@ private:
     double calcArea();
     double calcPerimeter();
 public:
-    Circle(std::string name = "kol");
+    Circle(std::string name = "kolo\n");
     void toString();
 };
 

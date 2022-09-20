@@ -16,27 +16,27 @@ int main() {
             std::cout << "1.Add Square\n2.Add Circle\nChoice: ";
             std::cin >> choice;
             if (choice == 1)
-                Shapes.addShape("Square");
+                Shapes.addShape("square");
             else if (choice == 2)
-                Shapes.addShape("Circle");
+                Shapes.addShape("circle");
             else
                 std::cerr << "error";
 
         }
-        else if (choice == 3)
+        else if (choice == 2)
             Shapes.getMaxShapeByPerimeter();
-        else if (choice == 4)
+        else if (choice == 3)
             Shapes.getMaxShapeByArea();
-        else if (choice == 5)
+        else if (choice == 4) {
+            std::cout << "Good bye!";
             break;
-        else if (choice == 6)
+        }
+        else if (choice == 5)
         {
             Shapes.getFormulas();
-
         }
-
         else
-            std::cerr << "Error";
+            std::cerr << "\nError\n";
 
     }
     return 0;

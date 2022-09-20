@@ -131,9 +131,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Shape.cpp" />
     <ClCompile Include="ShapeCollection.cpp" />
-    <ClCompile Include="ShapeColleection.cpp" />
     <ClCompile Include="Square.cpp" />
-    <ClCompile Include="Triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Circle.h" />
